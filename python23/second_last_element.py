@@ -7,7 +7,7 @@ def find_element(one):
     return one[-2]
     
 
-example_list = ['a', 'b', 'c', 'd']
+example_list = ['a', 'b', 'c', 'd', 'e']
 second_last_element = find_element(example_list)
 
 print("Second Last Element : ", second_last_element)
