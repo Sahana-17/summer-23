@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LastElement {
     public static void main(String[] args) {
-        List<String> list = List.of("a", "b", "c", "d");
+        List<String> list = List.of("a", "b", "c", "d", "e");
 
         if (list.isEmpty()) {
             System.out.println("Empty List");
