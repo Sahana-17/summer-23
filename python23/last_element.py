@@ -1,4 +1,4 @@
-#Day1
+#Problem1
 
 def find_element(one):
 

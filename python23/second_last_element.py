@@ -1,4 +1,4 @@
-#Day2
+#Problem 2
 
 def find_element(one):
     if len(one) < 2:

@@ -1,4 +1,4 @@
-//Day 2
+//Problem 2
 
 package java23;
 import java.util.List;
