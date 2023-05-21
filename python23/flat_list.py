@@ -1,14 +1,18 @@
 #Problem 7
 
-def flatten(list): 
+def flatten(one): 
 
     flat_list = []
-    for nest_list in example_list:
-        for num in nest_list:
-            flat_list.append(num)
+    for item in one:
+        if isinstance(item, list):
+            flat_list.extend(flatten(item))
 
-    print(flat_list)
+        else:
+            flat_list.append(item)
+    
+    return flat_list
 
-example_list = [[1, 2], [3], [4, 5, 6, 7]]
 
-flatten(example_list)
+example_list = ['a', ['b', ['c', ['i'],'d'], 'e', 'f'], 'g', 'h']
+flattened_list = flatten(example_list)
+print(flattened_list)
