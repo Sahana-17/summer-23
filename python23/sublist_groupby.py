@@ -1,3 +1,5 @@
+#Problem 9 alternate solution using groupby
+
 from itertools import groupby
 
 def pack(sample_list):
