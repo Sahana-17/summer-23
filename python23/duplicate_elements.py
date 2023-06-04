@@ -7,6 +7,6 @@ def duplicate(one):
     
     return duplicated_list
 
-example_list = ['a', 'b', 'b', 'c', 'b', 'd']
+example_list = ['a', 'b', 'b', 'b', 'c', 'b', 'd']
 final_list = duplicate(example_list)
 print(final_list)
