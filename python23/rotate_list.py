@@ -1,4 +1,4 @@
-#Problem 19 (works only for even value of n)
+#Problem 19 (works only for positive value of n)
 
 def rotate_list(one,n):
 
